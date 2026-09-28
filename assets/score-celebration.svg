@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="690" viewBox="0 0 900 690" role="img" aria-labelledby="t d">
+<title id="t">Chấm điểm vui trên TV</title><desc id="d">TV hiển thị điểm vui 89 cùng hiệu ứng chúc mừng, khán giả vỗ tay.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b3f3a"/><stop offset="1" stop-color="#087b70"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".38" r=".55"><stop stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+<rect width="900" height="690" rx="28" fill="url(#bg)"/>
+<rect width="900" height="690" rx="28" fill="url(#glow)"/>
+<g fill="#ffd66e" opacity=".9"><circle cx="120" cy="120" r="6"/><circle cx="780" cy="100" r="8"/><circle cx="700" cy="200" r="5"/><circle cx="180" cy="240" r="5"/><circle cx="820" cy="330" r="6"/><circle cx="90" cy="420" r="7"/></g>
+<g stroke="#ffd66e" stroke-width="5" stroke-linecap="round" opacity=".85"><path d="M140 160l14 30 32 4-23 22 6 32-29-16-29 16 6-32-23-22 32-4z" fill="none"/><path d="M730 350l10 22 24 3-17 17 4 24-21-12-21 12 4-24-17-17 24-3z" fill="none"/></g>
+<rect x="150" y="150" width="600" height="340" rx="24" fill="#102e2c" stroke="#ffffff" stroke-opacity=".25" stroke-width="2"/>
+<rect x="150" y="150" width="600" height="64" rx="24" fill="#ffffff" fill-opacity=".08"/>
+<circle cx="190" cy="182" r="7" fill="#ff6b6b"/><circle cx="214" cy="182" r="7" fill="#ffd66e"/><circle cx="238" cy="182" r="7" fill="#5dd39e"/>
+<text x="450" y="290" text-anchor="middle" font-family="sans-serif" font-size="30" letter-spacing="4" fill="#b9e1cf">ĐIỂM VUI</text>
+<text x="450" y="400" text-anchor="middle" font-family="sans-serif" font-size="130" font-weight="800" fill="#ffffff">89</text>
+<rect x="350" y="430" width="200" height="36" rx="18" fill="#ffd66e"/><text x="450" y="455" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#3d2c00">72 – 99 · VUI</text>
+<text x="450" y="300" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ffd66e">✧ ✧ ✧</text>
+<g><ellipse cx="250" cy="580" rx="90" ry="20" fill="#062825"/><ellipse cx="650" cy="580" rx="90" ry="20" fill="#062825"/>
+<circle cx="250" cy="540" r="26" fill="#e8b98a"/><rect x="224" y="562" width="52" height="40" rx="14" fill="#ffd66e"/>
+<circle cx="650" cy="540" r="26" fill="#d69c72"/><rect x="624" y="562" width="52" height="40" rx="14" fill="#ff9d6e"/>
+<path d="M210 560l-30-24M290 560l30-24M610 560l-30-24M690 560l30-24" stroke="#e8b98a" stroke-width="12" stroke-linecap="round"/></g>
+<text x="450" y="640" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#d5e9e3">Không phân tích giọng hát · Không chặn bài sau</text>
+</svg>

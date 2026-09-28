@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="690" viewBox="0 0 900 690" role="img" aria-labelledby="t d">
+<title id="t">Cách quét mã QR để ghép thiết bị</title><desc id="d">Máy Host hiện mã QR dùng một lần. Nhân viên mở camera trên điện thoại quét mã, trình duyệt mở trang ghép nối, đặt tên máy rồi dùng luôn. Hình minh họa, mã thật chỉ hiện trên máy Host.</desc>
+<rect width="900" height="690" rx="28" fill="#f2f7f4"/>
+<text x="450" y="64" text-anchor="middle" font-family="sans-serif" font-size="22" letter-spacing="3" fill="#087b70" font-weight="700">1 HIỆN MÃ · 2 QUÉT · 3 DÙNG LUÔN</text>
+<!-- Host card -->
+<g>
+<rect x="60" y="96" width="360" height="470" rx="24" fill="#243d3e"/>
+<text x="240" y="140" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#fff">HOST · GHÉP THIẾT BỊ</text>
+<rect x="110" y="162" width="260" height="260" rx="16" fill="#fff"/>
+<!-- illustrative QR: quiet zone + 3 finders + deterministic modules -->
+<g>
+<rect x="130" y="182" width="220" height="220" fill="#fff"/>
+<g fill="#102e2c">
+<rect x="140" y="192" width="56" height="12"/><rect x="140" y="192" width="12" height="56"/><rect x="184" y="192" width="12" height="56"/><rect x="140" y="236" width="56" height="12"/><rect x="152" y="204" width="32" height="32"/>
+<rect x="284" y="192" width="56" height="12"/><rect x="284" y="192" width="12" height="56"/><rect x="328" y="192" width="12" height="56"/><rect x="284" y="236" width="56" height="12"/><rect x="296" y="204" width="32" height="32"/>
+<rect x="140" y="336" width="56" height="12"/><rect x="140" y="336" width="12" height="56"/><rect x="184" y="336" width="12" height="56"/><rect x="140" y="380" width="56" height="12"/><rect x="152" y="348" width="32" height="32"/>
+<rect x="212" y="192" width="12" height="12"/><rect x="236" y="204" width="12" height="12"/><rect x="212" y="228" width="12" height="12"/><rect x="248" y="240" width="12" height="12"/><rect x="212" y="264" width="12" height="12"/><rect x="260" y="276" width="12" height="12"/><rect x="236" y="300" width="12" height="12"/><rect x="284" y="264" width="12" height="12"/><rect x="308" y="288" width="12" height="12"/><rect x="284" y="312" width="12" height="12"/><rect x="212" y="336" width="12" height="12"/><rect x="248" y="348" width="12" height="12"/><rect x="272" y="360" width="12" height="12"/><rect x="308" y="348" width="12" height="12"/><rect x="320" y="372" width="12" height="12"/><rect x="212" y="380" width="24" height="12"/><rect x="248" y="380" width="12" height="12"/><rect x="284" y="384" width="12" height="12"/>
+</g>
+<rect x="130" y="182" width="220" height="220" fill="none" stroke="#087b70" stroke-width="4"/>
+</g>
+<rect x="110" y="438" width="260" height="40" rx="20" fill="#5dd39e"/><text x="240" y="465" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#06302b">Mã dùng 1 lần · ~60 giây</text>
+<text x="240" y="512" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#b9e1cf">MINH HỌA — mã thật chỉ</text>
+<text x="240" y="536" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#b9e1cf">hiện trên máy Host</text>
+</g>
+<!-- scan beam -->
+<path d="M420 300h60" stroke="#5dd39e" stroke-width="6" stroke-dasharray="12 10" stroke-linecap="round"/>
+<!-- Phone scanning -->
+<g>
+<rect x="500" y="120" width="150" height="300" rx="30" fill="#243d3e"/>
+<rect x="512" y="150" width="126" height="220" rx="12" fill="#102e2c"/>
+<rect x="524" y="162" width="102" height="150" fill="none" stroke="#5dd39e" stroke-width="4"/>
+<rect x="524" y="162" width="14" height="14" fill="#5dd39e"/><rect x="612" y="162" width="14" height="14" fill="#5dd39e"/><rect x="524" y="298" width="14" height="14" fill="#5dd39e"/><rect x="612" y="298" width="14" height="14" fill="#5dd39e"/>
+<rect x="534" y="230" width="82" height="6" rx="3" fill="#5dd39e"/>
+<circle cx="575" cy="392" r="12" fill="none" stroke="#b9ccc3" stroke-width="3"/>
+<text x="575" y="452" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#172f32">Mở camera</text>
+<text x="575" y="476" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#172f32">quét mã</text>
+</g>
+<!-- paired result phone -->
+<g>
+<rect x="690" y="170" width="150" height="300" rx="30" fill="#087b70"/>
+<rect x="702" y="200" width="126" height="220" rx="12" fill="#fff"/>
+<text x="765" y="250" text-anchor="middle" font-size="34">🎤</text>
+<text x="765" y="290" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#172f32">Tìm bài</text>
+<text x="765" y="316" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#087b70">Đã kết nối ●</text>
+<rect x="718" y="340" width="94" height="36" rx="18" fill="#243d3e"/><text x="765" y="364" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#fff">Dùng luôn</text>
+<text x="765" y="502" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#172f32">Đặt tên máy</text>
+<text x="765" y="526" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#172f32">xong dùng luôn</text>
+</g>
+<path d="M650 300h40" stroke="#087b70" stroke-width="6" stroke-dasharray="12 10" stroke-linecap="round"/>
+<rect x="60" y="590" width="780" height="56" rx="16" fill="#fff" stroke="#dae5e1"/><text x="450" y="625" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172f32">Host bấm “Ghép thiết bị” → camera quét → trình duyệt mở trang /pair → đặt tên → xong</text>
+</svg>

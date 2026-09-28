@@ -34,3 +34,18 @@ if (dialog && typeof dialog.showModal === 'function') {
   dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) close(); } });
   dialog.addEventListener('close', () => { document.body.classList.remove('modal-open'); opener?.focus(); });
 }
+const revealItems = document.querySelectorAll('.reveal');
+if (revealItems.length && 'IntersectionObserver' in window) {
+  const io = new IntersectionObserver(entries => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        entry.target.style.transitionDelay = Math.min(i * 60, 180) + 'ms';
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealItems.forEach(el => io.observe(el));
+} else {
+  revealItems.forEach(el => el.classList.add('is-visible'));
+}
